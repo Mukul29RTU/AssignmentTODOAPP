@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const userRoute = require('./routes/user');
 const todoRoute = require('./routes/todo');
 
-mongoose.connect('mongodb://localhost:27017/Todoapp');
+mongoose.connect('');
 
 
 const app = express();
