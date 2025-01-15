@@ -1,0 +1,88 @@
+
+.myDetails{
+    display: flex;
+    flex-direction: row;    
+}
+
+.maininfo{
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.myInfo{
+    font-weight: 700;
+    word-break: break-all;
+    white-space:normal;
+}
+
+.myButtons{
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.buton{
+    display: flex;
+    flex-direction: row;
+}
+
+.student{
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+}
+
+@media only screen and (max-width:768px) {
+    .myDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .maininfo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: .8rem;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .myImage img{
+        width: 100px;
+        height: 100px;
+    }
+
+    
+    .myButtons {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column; /* Keeps the stacking layout */
+        justify-content: flex-start;
+        padding: 0px 15px;
+    }
+    
+    .adress {
+        width: 100%;
+        font-size: 1rem;
+        white-space: normal;
+        word-break: break-word;
+        max-height: 130px;
+        order: 1; /* Moves adress below */
+    }
+    
+    .buton {
+        padding: 15px;   
+        height: auto; /* Adjusted height to fit the content */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        order: 2; /* Moves buton above */
+    }
+
+
+}

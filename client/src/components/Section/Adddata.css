@@ -1,0 +1,38 @@
+
+.addtodo{
+    height: 80%;
+    width: 100%;
+}
+
+.todoEdit{
+  height: 80%;
+  width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+
+    .addtodo{
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem 0px;
+        overflow: hidden;
+      }
+
+
+    .todoEdit{
+      height: 100%;
+      width: 100%;
+      padding: 1.5rem 0px;
+      overflow: hidden;
+    }
+    
+
+    .addbox{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 10px;    
+    }
+
+  }
